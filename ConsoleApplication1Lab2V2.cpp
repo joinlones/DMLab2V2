@@ -81,6 +81,8 @@ void print_SKNF() {
 }
 
 int main() {
+    // Установка локали для поддержки русских символов
+    setlocale(LC_ALL, "Russian");
     std::cout << "Таблица истинности:\n";
     print_truth_table();
 
